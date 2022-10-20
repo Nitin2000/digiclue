@@ -1,0 +1,88 @@
+.btnlog
+{
+	 width: auto;
+    height: auto;
+    position: absolute;
+    color: #fff;
+	text-transform:capitalize;
+    font-size:24px;
+    margin:23px 0px 0px 36%;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+	background-color:#5F9EA0;
+	border:1px solid #5F9EA0;
+}
+table 
+{
+	text-align:center;
+	width:100%;
+	border: 0px solid transparent;
+}
+th
+{
+	width: 20%;
+    margin: 50px auto 0px;
+    color: white;
+    background: #5F9EA0;
+    text-align: center;
+    border: 0px solid transparent;
+        border-bottom-color: rgb(176, 196, 222);
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+
+td
+{
+	width: 20%;
+    margin: 50px auto 0px;
+    padding: 10px;
+	text-align:center;
+}
+.seopart
+	{
+		float:right;
+		text-align:left;
+		font-size:20px;
+	}
+.gdpart
+	{
+		float:left;
+		text-align:left;
+		font-size:20px;
+		color:black;
+	}
+.smpart
+	{
+		float:right;
+		text-align:left;
+		font-size:20px;
+	}
+.empart
+	{
+		float:left;
+		text-align:left;
+		font-size:20px;
+	}
+.servicesection img
+	{
+		padding:10px;
+		width:100%;
+		height:250px;
+	}
+.servicesection 
+	{
+		padding-bottom:10px;
+		text-align:center;
+		font-weight:bold;
+		font-size:25px;
+		float:right;
+		color:black;
+	}	
+@media screen and (max-width:500px)
+{
+
+}

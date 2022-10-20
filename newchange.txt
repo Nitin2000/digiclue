@@ -1,0 +1,10 @@
+.login1 {
+    font-size: 16px;
+    border: 1px solid #070809;
+    box-shadow: 3px 3px 3px #42414166;
+    width: auto;
+    margin-top: 7px;
+    padding: 8px;
+    height: auto;
+    background-color: #c16ecfba;
+}

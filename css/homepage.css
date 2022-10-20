@@ -1,0 +1,253 @@
+/* heading prop start */
+	h2
+		{
+			color: #4074b6;
+			font-size:35px;
+			margin:3% 0% 4% 0%;
+		}
+	h3
+		{
+			color: #5240b6;
+		}
+
+/* heading prop close */
+
+/* about part start */
+	.paraleft
+		{
+			float:left;
+			text-align:left;
+			font-size:20px;
+			color:black;
+		}
+	.pararight
+		{
+			float:right;
+			text-align:left;
+			font-size:20px;
+			color:black;
+		}
+/* about part end */
+
+
+/* gallary section */
+
+	/* for gallary images popup */
+		.modalwindow
+			{
+				width: 100%;
+				height: 72%;
+			}
+	/* closed */
+	
+	/* gallary images	 */
+		.eimg img 
+			{
+				height:300px;
+				width:100%;
+				margin-bottom:10%;
+				border:5px solid #00000099;
+			}
+		.gallerypart
+			{
+				padding:30px 0px 15px 0px;
+			}
+	/* closed */
+	
+/*gallary section close*/
+
+/* for form	 */
+	placeholder
+		{
+			text-align:center;
+		}
+	input
+		{
+			word-spacing: 10px;
+			padding-left: 30px;
+			height: 50px;
+			width: 100%;
+		}
+	textarea
+		{
+			word-spacing: 10px;
+			padding-left: 30px;
+			height: 135px;
+			width: 100%;
+		}
+	/*table start */
+		.contactpart
+			{
+				margin-bottom:3%;
+				padding: 0% 5% 0% 5%;
+			}
+		.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th,
+		.table>thead>tr>td, .table>thead>tr>th
+			{
+				padding: 8px;
+				line-height: 1.42857143;
+				vertical-align: top;
+				border-top: 0px solid #ddd;
+			}
+		.table 
+			{
+				width: 100%;
+				max-width: 100%;
+				margin-bottom: 0px;
+			}
+		.table-striped>tbody>tr:nth-of-type(odd)
+			{
+				background-color: #3775b285;
+			}
+		.table-striped>tbody>tr:nth-of-type(even)
+			{
+				background-color: #ba6ecd21;
+			}
+	/* table close */
+	
+/* form close */
+	.aboutsecondpart
+		{
+			padding-top:50px;
+		}
+	.abspleft
+		{
+			float:left;
+			width:350px;
+			height:150px;
+		}
+	.abspright
+		{
+			float:right;
+			width:350px;
+			height:150px;
+		}
+  /* Remove the navbar's default margin-bottom and rounded borders */ 
+	.csk
+		{
+			width:auto;
+			height:auto;
+			margin-left:100px;
+			background-color:#2376ae;
+		}
+	a:focus, a:hover
+		{
+			color: #23527c;
+			text-decoration: none;
+		}
+/*small screen code start here*/		
+	@media screen and (max-width:480px)
+		{	
+			p 
+				{
+					text-align: justify;
+					margin: 0 0 10px;
+				}	
+			.table>tbody>tr>td, .table>tbody>tr>th,.table>tfoot>tr>td,
+			.table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th 
+				{
+					padding: 8px 0px 7px 12px;
+					line-height: 1.42857143;
+					vertical-align: top;
+					font-size: 15px;
+					border-top: 0px solid #ddd;
+				}
+			placeholder
+				{
+					font-size:35px;
+					text-align:center;
+				}
+			h2 
+				{
+					color: #4074b6;
+					font-size: 28px;
+					margin: 7% 0% 7% 0%;
+				}
+			.eimg img
+				{
+					height: 140px;
+					width: 100%;
+					margin-bottom: 12%;
+					border: 5px solid #00000099;
+				}
+			.col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3,
+			.col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 
+				{
+					position: relative;
+					min-height: 1px;
+					padding-right: 8px;
+					padding-left: 11px;
+				}
+			.modalwindow 
+				{
+				width: 100%;
+				height: 75%;
+				padding: 100px 0px 50px 0px;
+				}
+			input 
+				{
+					word-spacing: 10px;
+					padding-left: 30px;
+					height: 50px;
+					width: 100%;
+				}
+			textarea
+				{
+					word-spacing: 10px;
+					padding-left: 30px;
+					height: 135px;
+					width: 100%;
+				}
+			.csk
+				{
+					width: auto;
+					height: auto;
+					font-size: 20px;
+					margin-left: 90px;
+					background-color: #2376ae;
+				}
+			.modalwindowk
+				{
+					display:none;
+				}
+			*
+				{
+					font-family: cursive;
+					font-size:15px;
+				}
+			.navbar
+				{
+					position: absolute;
+					min-height: 60px;
+					margin-bottom: 0px;
+					border: 1px solid transparent;
+					background-color: transparent;
+				}	
+			.modal-content
+				{
+					position: relative;
+					background-color: #fff;
+					background-clip: padding-box;
+					border: 1px solid #999;
+					border: 1px solid rgba(0,0,0,.2);
+					border-radius: 6px;
+					-webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+					box-shadow: 0 3px 9px rgba(0,0,0,.5);
+					outline: 0;
+					margin: 50% 0% 0% -1%;
+					padding-bottom: 20%;
+					background-image: url(image/k.jpg);
+					opacity: 0.9;
+					background-repeat: no-repeat;
+					background-size: 100%;
+				}	
+			.navbar-inverse .navbar-toggle 
+				{
+					border-color: #a16fc9;
+				}
+			.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover 
+				{
+					background-color:#ad6fcc;
+				}		
+		}
+/*small screen code end here*/		

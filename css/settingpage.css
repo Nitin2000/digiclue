@@ -1,0 +1,18 @@
+ .labtext
+ {
+	 color:black;
+	 font-weight:bold;
+	 font-size:14px;
+ }
+.input-group input {
+    height: 32px;
+    width: 100%;
+    padding: 0px 100px 5px 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.headerpart
+	{
+		padding:0% 0% 0% 20%;
+	}

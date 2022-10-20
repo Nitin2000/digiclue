@@ -1,0 +1,28 @@
+	.paraleft
+		{
+			float:left;
+			text-align:left;
+			font-size: 20px;
+
+			padding: 0% 5% 5% 5%;
+		}
+	.pararight
+		{
+			padding:5% 0% 5% 0%;
+			font-weight:bold;
+			font-size: 21px;
+
+		}
+	.para
+		{
+			text-align:center;
+			font-size: 21px;
+			color:red;
+			font-weight:bold;
+			padding: 5% 5% 5% 5%
+		}
+		
+@media screen and (max-width:500px)
+{
+
+}
